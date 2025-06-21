@@ -4,10 +4,12 @@
   "description": "a simple backend code to understand",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "echo \"No build step defined\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
